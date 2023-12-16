@@ -1,0 +1,145 @@
+
+body, h1,h2,p,ul{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/* header nav{
+    background-color: rgb(22, 39, 228);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;                             
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0 70px;
+
+} */
+
+ nav{
+    background-color: #c92727;
+    
+} 
+
+ul{
+    list-style-type: none;
+    padding: 10px 10px;
+    text-align: center;
+  
+}
+li{
+    display: inline;
+    margin-right: 20px;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.baner{
+   
+    /* background-image: url(assets/piscine-sunset.jpg); linear-gradient(rgba(0,0,0,0.1),#333),*/
+    background-image: url("/assets/piscine-sunset.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: rgb(225, 32, 14);
+    /* margin-top: -10px;  */
+    text-align: center;  
+}
+.baner h1{
+    font-size: 36px ;
+    margin-bottom: 10px;
+
+}
+.baner p{
+    font-size: 18px ;
+    color: black;
+    font-weight: bold;
+
+}
+section{
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.about_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.about_image{
+    flex: 1;
+    text-align: center;
+}
+.about_image img{
+    max-width: 100%;
+    height: auto;
+}
+.about_text{
+    flex: 1;
+    padding: 20px;
+
+}
+form{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 60px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"],input[type="email"],input[type="tel"],input[type="password"],input[type="textarea"]{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+
+}
+input[type="radio"]{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.sexe{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+input[type="submit"]{
+    width: 100px;
+ 
+}
+
+
+input[type="submit"]:hover{
+    background-color: green;
+ 
+}
+.Contactez-nous{
+    text-align: center;
+}
+footer{
+    background-color: #eca7a7;
+    color: #111;
+    text-align: center;
+    padding: 10px 0;
+}
+
+

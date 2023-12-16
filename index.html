@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet_final_html_css</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header class="header">
+
+        
+
+        <nav > 
+              <ul>
+                <li><a href="#Acceuil">Acceuil</a></li>
+                <li><a href="#Apropos">A propos</a></li>          
+                <li><a href="#Nosservices">Nos services</a></li>
+                <li><a href="#Contactez-nous">Contactez-nous</a></li>
+              </ul>
+        </nav>
+    </header>
+
+    <div class="baner">
+        <h1> Bienvenus à L'hôtel MassilianoVa </h1>
+        <p> Votre destination de rêve pour des vacances inoubliables </p>
+    </div>
+
+    <section id="Apropos">
+       
+        <h2> A propos</h2>
+
+        <div class="about_container">
+
+            <div class="about_image">
+                   <img src="assets/delicieux-repas-lit-dans-vue-laterale-chambre.jpg" alt="">
+            </div>
+            <div class="about_text">
+                   <p> Bienvenus à l'hôtel MassilianoVa un lieu de détente ultime au coeur de la nature. 
+                    Profitez de nos chambres luxieuses, 
+                    de notre cuisine rafinée et de notre service exeptionnel pour des vacances inoubliables </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="Nosservices">
+        <h2> Nos services</h2>
+
+        <div class="about_container">
+
+           
+            <div class="about_text">
+                   <p> Bienvenus à l'hôtel MassilianoVa un lieu de détente ultime au coeur de la nature. 
+                    Profitez de nos chambres luxieuses, 
+                    de notre cuisine rafinée et de notre service exeptionnel pour des vacances inoubliables </p>
+            </div>
+            
+            <div class="about_image">
+                <img src="assets/delicieux-repas-lit-dans-vue-laterale-chambre.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="Contactez-nous">
+        <h2>Contactez-nous</h2>
+
+        <form action="#" method="post">
+            <label for="Nom_complet"> Nom complet: </label>
+            <input type="text" required id="Nom_complet" name="Nom_complet"><br><br>
+
+            <label for="email"> @ email: </label>
+            <input type="email" required id="email" name="email"><br><br>
+
+            <label for="Ntel"> Num Tel: </label>
+            <input type="tel" required id="Ntel" name="Ntel" required><br><br>
+
+            <label for="pwrd"> Mot de passe: </label>
+            <input type="password" required id="pwrd" name="pwrd" ><br><br>
+
+            <label for="description"> description</label><br />
+            <textarea name="description" id="description" cols="50" rows="4" required></textarea><br><br>
+             
+            <div class="sexe"> 
+
+                <label for="sexe"> Sexe: </label> <br/>
+                <input type="radio"  id="homme" name="sexe" value="homme">
+                <label for="homme"> homme </label>
+
+                <input type="radio"  id="femme" name="sexe" value="femme">
+                <label for="femme"> femme </label>
+
+                <input type="radio"  id="autre" name="sexe" value="autre">
+                <label for="autre"> Autre </label> 
+
+
+
+             </div><br>
+
+             <input type="submit" value="Envoyer">
+
+
+
+        </form>
+
+    </section>
+    <footer>
+        <p>&copy;2023 Hôtel MassilianoVa. Tout droits réservés. </p>
+
+    </footer>
+   
+</body>
+</html>
